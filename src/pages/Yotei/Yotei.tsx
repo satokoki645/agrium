@@ -72,7 +72,7 @@ const Yotei: React.FC<Props> = ({ yearMonth, single, rcseq }) => {
   const renderDaysOfWeek = () => (
     <div className="grid grid-cols-7 bg-green-600 text-white py-2">
       {["月", "火", "水", "木", "金", "土", "日"].map((day) => (
-        <div key={day} className="flex justify-center items-center gap- 4">
+        <div key={day} className="flex justify-center items-center gap-4">
           <span>{day}</span>
         </div>
       ))}
